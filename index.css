@@ -1,0 +1,39 @@
+body {
+	background-color: Azure;
+}
+
+header {
+	background-color: pink;
+}
+
+h3{
+	text-align: center;
+}
+
+h1 {
+	font-size: 45px;
+	text-align: center;
+	font-family: cursive;
+	word-spacing: 8px;
+}
+
+#picture {
+	border:3px solid pink;
+	width: 500px;
+	height: 380px;
+	display: block;
+	margin: 0 auto;
+}
+
+a {
+	color: olive;
+}
+
+a:hover{
+	color: pink;
+}
+
+a:link{
+	text-decoration: none;
+}
+
