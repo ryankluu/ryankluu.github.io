@@ -44,8 +44,8 @@ h2 {
 }
 
 #picture {
-	width:44%;
-	height:81%;
+	width:46%;
+	height:85%;
 	display: block;
 }
 
@@ -88,11 +88,11 @@ a:link{
 
 .description1{
 	position: absolute;
-    top: 48%;
-    left: 65%;
+    top: 50%;
+    left: 66%;
     font-family: 'Montserrat';
-    color: #476b6b;
-    font-size: 21px;
+    color: #000d1a;
+    font-size: 25px;
     transform: translate(-50%, -50%);
 }
 
@@ -101,7 +101,10 @@ a:link{
     top: 52%;
     left: 65%;
     font-family: 'Montserrat';
-    color: #476b6b;
-    font-size: 22px;
+    color: #000d1a;
+    font-size: 24px;
     transform: translate(-50%, -50%);
 }
+
+
+
