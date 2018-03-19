@@ -44,23 +44,23 @@ h2 {
 }
 
 #picture {
-	width:40%;
-	height:80%;
+	width:37%;
+	height:73%;
 	display: block;
 	position: fixed;
     bottom:0;
-    left: 7%
+    left: 10%
 }
 
 .nameTag {
 	position: fixed;
-	top: 35%;
+	top: 36%;
     left: 64%;
     font-family: 'Montserrat';
     color: #204060;
-    font-size: 97px;
+    font-size: 98px;
     transform: translate(-50%, -50%);
-    word-spacing: 2px;
+    word-spacing: 4px;
 
 }
 
@@ -74,7 +74,7 @@ a:link{
 
 .navbar {
 	font-style: bold;
-	font-size: 24px;
+	font-size: 27px;
 	font-family: 'Montserrat';	
 }
 
