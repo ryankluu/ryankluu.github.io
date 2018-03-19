@@ -44,18 +44,21 @@ h2 {
 }
 
 #picture {
-	width:47%;
-	height:91%;
+	width:40%;
+	height:80%;
 	display: block;
+	position: fixed;
+    bottom:0;
+    left: 7%
 }
 
 .nameTag {
-	position: absolute;
-    top: 35%;
+	position: fixed;
+	top: 35%;
     left: 63%;
     font-family: 'Montserrat';
     color: #204060;
-    font-size: 92px;
+    font-size: 96px;
     transform: translate(-50%, -50%);
 
 }
@@ -87,9 +90,9 @@ a:link{
 }
 
 .description1{
-	position: absolute;
-    top: 50%;
-    left: 66%;
+	position: fixed;
+	top: 48%;
+    left: 67%;
     font-family: 'Montserrat';
     color: #000d1a;
     font-size: 25px;
@@ -97,9 +100,9 @@ a:link{
 }
 
 .description2{
-	position: absolute;
-    top: 52%;
-    left: 65%;
+	position: fixed;
+	top: 54%;
+    left: 72%;
     font-family: 'Montserrat';
     color: #000d1a;
     font-size: 24px;
