@@ -1,16 +1,16 @@
 @font-face {
 	font-family:'Montserrat';
-	src: url('fonts/Montserrat-Regular.otf');
+	src: url('fonts copy/Montserrat-ExtraLight.otf');
 }
 
 @font-face {
 	font-family:'Sorts Mill Goudy';
-	src: url('fonts/GoudyStM.otf');
+	src: url('fonts copy/GoudyStM.otf');
 }
 
 @font-face {
 	font-family:'Sorts Mill Goudy Italic';
-	src: url('fonts/GoudyStM-Italic.otf');
+	src: url('fonts copy/GoudyStM-Italic.otf');
 }
 
 h1 span{
@@ -44,14 +44,20 @@ h2 {
 }
 
 #picture {
-	width:60%;
-	height:90%;
+	width:44%;
+	height:81%;
 	display: block;
-	margin: 0 auto;
 }
 
-a {
-	color: olive;
+.nameTag {
+	position: absolute;
+    top: 35%;
+    left: 63%;
+    font-family: 'Montserrat';
+    color: #204060;
+    font-size: 92px;
+    transform: translate(-50%, -50%);
+
 }
 
 a:hover{
@@ -64,7 +70,8 @@ a:link{
 
 .navbar {
 	font-style: bold;
-	font-family: 'superclarendon';	
+	font-size: 24px;
+	font-family: 'Montserrat';	
 }
 
 .navbar-nav{
@@ -79,5 +86,22 @@ a:link{
 	float: none;
 }
 
+.description1{
+	position: absolute;
+    top: 48%;
+    left: 65%;
+    font-family: 'Montserrat';
+    color: #476b6b;
+    font-size: 21px;
+    transform: translate(-50%, -50%);
+}
 
-
+.description2{
+	position: absolute;
+    top: 52%;
+    left: 65%;
+    font-family: 'Montserrat';
+    color: #476b6b;
+    font-size: 22px;
+    transform: translate(-50%, -50%);
+}
