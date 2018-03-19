@@ -55,11 +55,12 @@ h2 {
 .nameTag {
 	position: fixed;
 	top: 35%;
-    left: 63%;
+    left: 64%;
     font-family: 'Montserrat';
     color: #204060;
-    font-size: 96px;
+    font-size: 97px;
     transform: translate(-50%, -50%);
+    word-spacing: 2px;
 
 }
 
