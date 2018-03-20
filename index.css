@@ -2,28 +2,23 @@
 	font-family:'Montserrat';
 	src: url('fonts copy/Montserrat-ExtraLight.otf');
 }
-
 @font-face {
 	font-family:'Sorts Mill Goudy';
 	src: url('fonts copy/GoudyStM.otf');
 }
-
 @font-face {
 	font-family:'Sorts Mill Goudy Italic';
 	src: url('fonts copy/GoudyStM-Italic.otf');
 }
-
 h1 span{
 	font-size: 40pt;
 }
-
 #welcome {
 	font-family: 'Sorts Mill Goudy';
 	text-transform: uppercase;
 	font-size: 30pt;
 	line-height: 0.9;
 }
-
 .welcome-lines {
 	margin: 3px 0;
 	border: 0;
@@ -31,31 +26,42 @@ h1 span{
 	background-color: black;
 
 }
-
 h1 {
 	font-size: 20pt;
 }
-
 h2 {
 	font-size: 12pt;
 	font-family: 'Sorts Mill Goudy Italic';
 	color: #797979;
 	font-style: italic;
 }
-
 #picture {
-	width:37%;
-	height:73%;
+	width:36%;
+	height:72%;
 	display: block;
 	position: fixed;
     bottom:0;
     left: 10%
 }
-
+.navbar {
+	font-style: bold;
+	font-size: 30px;
+	font-family: 'Montserrat';	
+}
+.navbar-nav{
+	float: none;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+.navbar-nav > li {
+	display: inline-block;
+	float: none;
+}
 .nameTag {
 	position: fixed;
-	top: 36%;
-    left: 64%;
+	top: 41%;
+    left: 63%;
     font-family: 'Montserrat';
     color: #204060;
     font-size: 98px;
@@ -63,52 +69,32 @@ h2 {
     word-spacing: 4px;
 
 }
-
-a:hover{
-	color: pink;
-}
-
-a:link{
-	text-decoration: none;
-}
-
-.navbar {
-	font-style: bold;
-	font-size: 27px;
-	font-family: 'Montserrat';	
-}
-
-.navbar-nav{
-	float: none;
-	margin: 0 auto;
-	display: block;
-	text-align: center;
-}
-
-.navbar-nav > li {
-	display: inline-block;
-	float: none;
-}
-
 .description1{
 	position: fixed;
-	top: 48%;
+	top: 53%;
     left: 67%;
-    font-family: 'Montserrat';
-    color: #000d1a;
-    font-size: 25px;
-    transform: translate(-50%, -50%);
-}
-
-.description2{
-	position: fixed;
-	top: 54%;
-    left: 72%;
     font-family: 'Montserrat';
     color: #000d1a;
     font-size: 24px;
     transform: translate(-50%, -50%);
 }
+.description2{
+	position: fixed;
+	top: 59%;
+    left: 71%;
+    font-family: 'Montserrat';
+    color: #000d1a;
+    font-size: 24px;
+    transform: translate(-50%, -50%);
+}
+#resume {
+	width: 63%;
+	height: 88%;
+}
+#resume_body {
+	background-color: #ecf2f9;
+}
+
 
 
 
