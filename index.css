@@ -19,13 +19,6 @@ h1 span{
 	font-size: 30pt;
 	line-height: 0.9;
 }
-.welcome-lines {
-	margin: 3px 0;
-	border: 0;
-	height: 2px;
-	background-color: black;
-
-}
 h1 {
 	font-size: 20pt;
 }
@@ -70,6 +63,7 @@ h2 {
 
 }
 .description1{
+	display: block;
 	position: fixed;
 	top: 53%;
     left: 67%;
@@ -79,6 +73,7 @@ h2 {
     transform: translate(-50%, -50%);
 }
 .description2{
+	display: block;
 	position: fixed;
 	top: 59%;
     left: 71%;
